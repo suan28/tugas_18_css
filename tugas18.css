@@ -1,0 +1,62 @@
+.container {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ecf0f1;
+}
+
+.box {
+  width: 360px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.box1 {
+  background-color: #81ceb4;
+  order: -2;
+}
+
+.box2 {
+  background-color: #61dc5a;
+}
+
+.box3 {
+  background-color: #1a3ffd;
+}
+
+.box4 {
+  background-color: purple;
+}
+
+.box5 {
+  background-color: #101f2f;
+}
+
+.box6 {
+  background-color: #ffbf00;
+  order: -6;
+}
+
+.box7 {
+  background-color: orange;
+  order: -1;
+}
+
+.box8 {
+  background-color: red;
+  order: -5;
+}
+
+.box9 {
+  background-color: silver;
+  order: -4;
+}
+
+.box10 {
+  background-color: grey;
+  order: -3;
+}
